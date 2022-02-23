@@ -1,0 +1,24 @@
+name: AquatiWaterPlugin
+version: ${project.version}
+main: xyz.aquaticraft.aquatiwater.AquatiWaterPlugin
+api-version: 1.18
+authors: [ Seailz ]
+description: The main plugin of the AquatiCraft SMP
+website: https://www.aquaticraft.xyz
+commands:
+  wild:
+    description: Teleport to a random location!
+    usage: /wild
+  bedrock:
+    aliases: [otherversion, connect]
+    description: Recive info on the bedrock compatibilaties!
+    usage: /bedrock
+  store:
+    aliases: [shop, store, pay, buy, ranks, support]
+    description: Recieve info on the store!
+    usage: /store
+  joinSever:
+    aliases: [join, server]
+    description: Join a server!
+    usage: /server [name]
+    permission: aquaticraft.joinserver

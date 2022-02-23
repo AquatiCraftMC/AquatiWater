@@ -1,0 +1,8 @@
+prefix: "&b(&3!&b)"
+# May be set to either "lobby", "smp".
+ServerType: "lobby"
+# Search up "Minecraft Color Codes" to pick one below!
+MainColor: "&b"
+SecondColor: "&3"
+BossBarMessage: "&bOur server supports &3&lBEDROCK EDITION!&b Learn more by typing &3/bedrock!"
+ActionBarMessage: "&bConnected with &3&lJAVA EDITION&b. Try running &3/bedrock"
